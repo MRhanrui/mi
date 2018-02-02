@@ -246,18 +246,18 @@
 	line-height: 58px;
 	font-weight: normal;
 }
-.star_head:hover h2 {
+.zhineng_more:hover h2 {
 	color: #ef6700;
 	cursor: pointer;
 }
-.zhineng_btn:hover{
+.zhineng_more:hover h4{
 	background: #ef6700;
 	color: #fff;
 	cursor: pointer;
 }
 
 
-.zhineng_btn{
+/* .zhineng_btn */.star_head h4{
 	width: 23px;
 	height: 23px;
 	background-color: #b0b0b0;
@@ -615,6 +615,10 @@
 	background: #fff;
 	position: relative;
 }
+.video_tu{
+	width: 296px;
+	height: 180px;
+}
 .video_btn img{
 	width: 296px;
 	height: 180px;
@@ -635,7 +639,7 @@
 .video_btn1{
 	margin-right: 0;
 }
-.video_btn2 {
+.video_tu span{
 	display: block;
 	font-family: "自定义";
 	font-size: 30px;
@@ -644,11 +648,13 @@
 	left: 12px;
 	color: #fff;
 }
-.video_btn2:hover{
+.video_tu:hover span{
 	color: #ef6700;
 	cursor: pointer;
 }
-
+.video_tu:hover img{
+	cursor: pointer;
+}
 
 
 .fuwu{
