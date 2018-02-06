@@ -167,6 +167,10 @@
 	border-right: 1px solid #e0e0e0;
 	color: #bfb3b0;
 }
+.star_btn1:hover{
+	color: #ef6700;
+	cursor: pointer;
+}
 .star_foot{
 	width: 1226px;
 	height: 340px;
@@ -1096,3 +1100,14 @@
 	opacity: 1;
 }
 
+.zhineng_left:hover,.zhineng_right_btn1:hover,.dapei_btn:hover,.zhineng_right_btn1:hover,.dapei_btn1:hover,.hot_buttom_btn:hover,.neirong_btn:hover,.video_btn:hover{
+	transition:all 0.2s linear ;
+}
+
+.zhineng_left:hover,.zhineng_right_btn1:hover,.dapei_btn:hover,.zhineng_right_btn1:hover,.dapei_btn1:hover,.hot_buttom_btn:hover,.neirong_btn:hover,.video_btn:hover{
+	box-shadow: 0 10px 30px 3px #a4a3a3;
+}
+.zhineng_left:hover,.zhineng_right_btn1:hover,.dapei_btn:hover,.zhineng_right_btn1:hover,.dapei_btn1:hover,.hot_buttom_btn:hover,.neirong_btn:hover,.video_btn:hover{
+	transform: translateY(-2px);
+	cursor: pointer;
+}
