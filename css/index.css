@@ -1,12 +1,11 @@
 @font-face {
   font-family: '自定义';  /* project id 561405 */
-  src: url('https://at.alicdn.com/t/font_561405_80un55xu3dblc8fr.eot');
-  src: url('https://at.alicdn.com/t/font_561405_80un55xu3dblc8fr.eot?#iefix') format('embedded-opentype'),
-  url('https:/at.alicdn.com/t/font_561405_80un55xu3dblc8fr.woff') format('woff'),
-  url('https://at.alicdn.com/t/font_561405_80un55xu3dblc8fr.ttf') format('truetype'),
-  url('https://at.alicdn.com/t/font_561405_80un55xu3dblc8fr.svg#iconfont') format('svg');
+  src: url('https://at.alicdn.com/t/font_561405_63rtyy9k54n53ik9.eot');
+  src: url('https://at.alicdn.com/t/font_561405_63rtyy9k54n53ik9.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_561405_63rtyy9k54n53ik9.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_561405_63rtyy9k54n53ik9.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_561405_63rtyy9k54n53ik9.svg#iconfont') format('svg');
 }
-
 .head{
 	width: 100%;
 	height: 40px;
@@ -76,6 +75,7 @@
 	height: 100px;
 
 	margin: 0 auto;
+	position: relative;
 
 }
 .daohang_logo{
@@ -113,13 +113,41 @@
 	border: 1px solid #e0e0e0;
 	float: right;
 	margin-top: 25px;
-}
-.search1{
 	line-height: 48px;
 	text-align: center;
 	font-family: "自定义";
 	font-size: 20px;
+	cursor: pointer;
+
 }
+
+.search2 {
+	position: absolute;
+	height: 18px;
+	right: 65px;
+	top: 40px;
+	background: #d1cfcf;
+	color: #333;
+	line-height: 18px;
+	font-size: 12px;
+	
+}
+.search3{
+	position: absolute;
+	height: 18px;
+	right: 135px;
+	top: 40px;
+	background: #d1cfcf;
+	color: #333;
+	line-height: 18px;
+	font-size: 12px;
+}
+.search2:hover,.search3:hover{
+	background: #ef6700;
+	color: #fff;
+	cursor: pointer;
+}
+
 .search1:hover{
 	background: #ef6700;
 }
@@ -261,17 +289,19 @@
 }
 
 
-/* .zhineng_btn */.star_head h4{
-	width: 23px;
-	height: 23px;
-	background-color: #b0b0b0;
+.star_head h4{
+	width: 24px;
+	height: 24px;
+	background: #b0b0b0;
+	border-radius: 50%;
+	font-size: 14px;
 	float: left;
 	margin-top: 17.5px;
 	margin-left: 10px;
-	border-radius: 50%;
 	color: #fff;
 	text-align: center;
-	line-height: 23px;
+	line-height: 24px;
+	font-family: "自定义";
 }
 
 .zhineng_bottom{
@@ -675,10 +705,15 @@
 }
 .fuwu_btn span {
 	display: block;
+	padding-top: 5px;
+	margin-left: 10px;
+	height: 24px;
 	font-family: "自定义";
-	font-size: 30px;
+	font-size: 20px;
 	color: #868686;
 	float: left;
+	line-height: 24px;
+
 }
 .fuwu_btn p{
 	font-size: 16px;
@@ -831,11 +866,11 @@
 	background: #ef6700;
 	cursor: pointer;
 }
-.bangzhu_phone span:hover{
+.bangzhu_phone:hover span{
 	color: #fff;
 	cursor: pointer;
 }
-.bangzhu_phone p:hover{
+.bangzhu_phone:hover p{
 	color: #fff;
 	cursor: pointer;
 }
@@ -1105,7 +1140,7 @@
 }
 
 .zhineng_left:hover,.zhineng_right_btn1:hover,.dapei_btn:hover,.zhineng_right_btn1:hover,.dapei_btn1:hover,.hot_buttom_btn:hover,.neirong_btn:hover,.video_btn:hover{
-	box-shadow: 0 10px 30px 3px #a4a3a3;
+	box-shadow: 0 10px 10px 2px #a4a3a3;
 }
 .zhineng_left:hover,.zhineng_right_btn1:hover,.dapei_btn:hover,.zhineng_right_btn1:hover,.dapei_btn1:hover,.hot_buttom_btn:hover,.neirong_btn:hover,.video_btn:hover{
 	transform: translateY(-2px);
