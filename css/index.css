@@ -1135,8 +1135,8 @@
 	opacity: 1;
 }
 
-.zhineng_left:hover,.zhineng_right_btn1:hover,.dapei_btn:hover,.zhineng_right_btn1:hover,.dapei_btn1:hover,.hot_buttom_btn:hover,.neirong_btn:hover,.video_btn:hover{
-	transition:all 0.2s linear ;
+.zhineng_left,.zhineng_right_btn1,.dapei_btn,.zhineng_right_btn1,.dapei_btn1,.hot_buttom_btn,.neirong_btn,.video_btn{
+	transition:all 0.3s linear ;
 }
 
 .zhineng_left:hover,.zhineng_right_btn1:hover,.dapei_btn:hover,.zhineng_right_btn1:hover,.dapei_btn1:hover,.hot_buttom_btn:hover,.neirong_btn:hover,.video_btn:hover{
